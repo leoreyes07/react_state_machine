@@ -3,8 +3,8 @@ import './Nav.css';
 
 export const Nav = ({ state, send }) => {
   const goToWelcome = () => {
-    send('CANCEL')
-  }
+    send({ type: 'CANCEL' });
+  };
 
   return (
     <nav className='Nav'>
