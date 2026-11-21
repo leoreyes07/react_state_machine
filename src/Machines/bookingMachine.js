@@ -9,7 +9,7 @@ const bookingMachine = createMachine(
         on: {
           START: {
             target: 'search',
-            actions: 'imprimirInicio',
+            actions: 'printInitial',
           },
         },
       },
@@ -36,7 +36,7 @@ const bookingMachine = createMachine(
   },
   {
     actions: {
-      imprimirInicio: () => {
+      printInitial: () => {
         console.log('Iniciando la compra de boletos de avión...');
       },
       printEntry: () => {
