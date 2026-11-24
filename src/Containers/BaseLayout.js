@@ -9,10 +9,8 @@ import './BaseLayout.css';
 export const BaseLayout = () => {
     const [state, send] = useMachine(bookingMachine);
 
-    console.log('My machine', state);
-    console.log('matches true', state.matches('initial'));
-    console.log('matches false', state.matches('tickets'));
-    console.log('can finish', state.can('FINISH'));
+    console.log('My machine', state.value, state.context);
+
 
     return (
         <div className="base-layout">
