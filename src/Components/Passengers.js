@@ -3,6 +3,7 @@ import './Passengers.css';
 
 export const Passengers = ({ state, send }) => {
   const [value, changeValue] = useState('');
+  const passengers = state.context.passengers;
 
   const onChangeInput = (e) => {
     changeValue(e.target.value);
@@ -26,10 +27,16 @@ export const Passengers = ({ state, send }) => {
         name="name" 
         type="text" 
         placeholder='Escribe el nombre completo' 
+        list="passenger-options"
         required 
         value={value} 
         onChange={onChangeInput}
       />
+      <datalist id="passenger-options">
+        {[...new Set(passengers)].map((passenger) =>
+          <option value={passenger} key={passenger} />
+        )}
+      </datalist>
       <div className='Passengers-buttons'>
         <button 
           className='Passengers-add button-secondary'
