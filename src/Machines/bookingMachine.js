@@ -94,6 +94,12 @@ const bookingMachine = createMachine(
           },
         },
         tickets: {
+          after: {
+            5000: {
+              target: 'initial',
+              actions: 'clearContext',
+            }
+          },
           on: {
             FINISH: {
               target: 'initial',
