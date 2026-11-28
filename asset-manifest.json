@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/leoreyes07/react_state_machine/static/css/main.864679a4.css",
-    "main.js": "/leoreyes07/react_state_machine/static/js/main.fffa29e1.js",
-    "static/js/453.27e31a3f.chunk.js": "/leoreyes07/react_state_machine/static/js/453.27e31a3f.chunk.js",
-    "static/media/background-travel-2.jpg": "/leoreyes07/react_state_machine/static/media/background-travel-2.1b3bc05ab3ab53a29ab2.jpg",
-    "index.html": "/leoreyes07/react_state_machine/index.html",
-    "main.864679a4.css.map": "/leoreyes07/react_state_machine/static/css/main.864679a4.css.map",
-    "main.fffa29e1.js.map": "/leoreyes07/react_state_machine/static/js/main.fffa29e1.js.map",
-    "453.27e31a3f.chunk.js.map": "/leoreyes07/react_state_machine/static/js/453.27e31a3f.chunk.js.map"
+    "main.css": "/react_state_machine/static/css/main.1f2c3ef5.css",
+    "main.js": "/react_state_machine/static/js/main.bd9da946.js",
+    "static/js/453.27e31a3f.chunk.js": "/react_state_machine/static/js/453.27e31a3f.chunk.js",
+    "static/media/background-travel-2.jpg": "/react_state_machine/static/media/background-travel-2.1b3bc05ab3ab53a29ab2.jpg",
+    "index.html": "/react_state_machine/index.html",
+    "main.1f2c3ef5.css.map": "/react_state_machine/static/css/main.1f2c3ef5.css.map",
+    "main.bd9da946.js.map": "/react_state_machine/static/js/main.bd9da946.js.map",
+    "453.27e31a3f.chunk.js.map": "/react_state_machine/static/js/453.27e31a3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.864679a4.css",
-    "static/js/main.fffa29e1.js"
+    "static/css/main.1f2c3ef5.css",
+    "static/js/main.bd9da946.js"
   ]
 }
