@@ -22,6 +22,13 @@ export const Passengers = ({ state, send }) => {
   return (
     <form onSubmit={submit} className='Passengers'>
       <p className='Passengers-title title'>Agrega a las personas que van a volar ✈️</p>
+      {passengers.length > 0 && (
+        <ul className='Passengers-list'>
+          {passengers.map((passenger, index) => (
+            <li key={`${passenger}-${index}`}>{passenger}</li>
+          ))}
+        </ul>
+      )}
       <input 
         id="name" 
         name="name" 
